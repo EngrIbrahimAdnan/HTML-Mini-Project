@@ -1,0 +1,40 @@
+div {
+    background-color: white;
+    animation-name: test;
+    animation-duration: 5s;
+  }
+  
+  .imageResize {
+    margin: 10px;
+    width: 800px;
+    height: 500px;
+    min-width: 900px;
+  
+    overflow: hidden;
+    object-fit: cover;
+  }
+  @keyframes example {
+    from {
+      background-image: src= "m1.jpg";
+    }
+    to {
+      background-color: src= "m4.jpeg";
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Create three equal columns that sits next to each other << made it 4 by making flex 25 */
+  .column {
+    /* background-color: black; */
+    flex: 25%;
+    padding: 5px;
+  }
+  
